@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerbangan Palsu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Penerbangan Palsu</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#booking">Pemesanan Tiket</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di Penerbangan Palsu</h2>
+        <p>Tempat terbaik untuk menemukan penerbangan dengan harga terbaik.</p>
+    </section>
+
+    <section id="booking">
+        <h2>Pemesanan Tiket</h2>
+        <form>
+            <label for="origin">Kota Asal:</label>
+            <input type="text" id="origin" name="origin" required>
+            <label for="destination">Kota Tujuan:</label>
+            <input type="text" id="destination" name="destination" required>
+            <label for="date">Tanggal Keberangkatan:</label>
+            <input type="date" id="date" name="date" value="2024-06-16" required>
+            <input type="submit" value="Cari Penerbangan">
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah maskapai penerbangan palsu yang menawarkan layanan penerbangan dengan harga terjangkau.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@penerbanganpalsu.com</p>
+        <p>Telepon: 0800-123-4567</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Penerbangan Palsu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
